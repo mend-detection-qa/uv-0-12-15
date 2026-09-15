@@ -1,0 +1,309 @@
+version = 1
+requires-python = ">=3.11"
+
+# This lockfile was generated for the install-command-flags probe.
+# Context: uv 0.12.15 fixed a regression that caused
+# `uv pip install --system` and `uv pip install --target <dir>`
+# to be incorrectly rejected. The Mend Unified Agent shells out
+# to these install modes when invoking uv before scanning.
+# This lockfile exercises the standard pip-compatible resolution
+# path that Mend reads directly when parsing uv projects.
+
+[[package]]
+name = "anyio"
+version = "4.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "idna" },
+    { name = "sniffio" },
+]
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/anyio-4.3.0.tar.gz"
+hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6"
+size = 159642
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/anyio-4.3.0-py3-none-any.whl"
+hash = "sha256:048e05d0f6caeed70d731f3db756d35dcc1f35747c8c403364a8332c630441b8"
+size = 85584
+
+[[package]]
+name = "certifi"
+version = "2024.2.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = []
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/certifi-2024.2.2.tar.gz"
+hash = "sha256:0569859f96c099f90a1ed954340c5f9df8f55e8b75cf9a06b1d2807ab8011f04"
+size = 164886
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/certifi-2024.2.2-py3-none-any.whl"
+hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"
+size = 163774
+
+[[package]]
+name = "charset-normalizer"
+version = "3.3.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = []
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/charset-normalizer-3.3.2.tar.gz"
+hash = "sha256:f30c3cb33b24454a82faecaf01b19c18562b1510d9abe128452de4268dda65e9"
+size = 104809
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+hash = "sha256:185e2a300a0eccfea66b4df7c0b5e4eab4cb16ee1d2ed1df4f87f97deac56ff4"
+size = 142215
+
+[[package]]
+name = "click"
+version = "8.1.7"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/click-8.1.7.tar.gz"
+hash = "sha256:ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de"
+size = 336121
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/click-8.1.7-py3-none-any.whl"
+hash = "sha256:ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28"
+size = 97941
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = []
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/colorama-0.4.6.tar.gz"
+hash = "sha256:08695f5cb7ed6e0531a20572697297d53f7f9a11a4c35d56f04a77fb3f58a4e"
+size = 27697
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/colorama-0.4.6-py2.py3-none-any.whl"
+hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+size = 25335
+
+[[package]]
+name = "h11"
+version = "0.14.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = []
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/h11-0.14.0.tar.gz"
+hash = "sha256:8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d"
+size = 100418
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/h11-0.14.0-py3-none-any.whl"
+hash = "sha256:e3fe4ac4b851c468cc8363d500db52c2ead036020723024a109d37346efaa761"
+size = 58535
+
+[[package]]
+name = "httpcore"
+version = "1.0.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "certifi" },
+    { name = "h11" },
+]
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/httpcore-1.0.5.tar.gz"
+hash = "sha256:34a38e2f9c27f37d7a5ede05edd3f4d669b8628c2e7bba2b2abd411ac9e4a3bf"
+size = 85481
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/httpcore-1.0.5-py3-none-any.whl"
+hash = "sha256:421f18bac248b25d310f3cacd198d55b8e6125c107797b609ff9b7a6ba7991b5"
+size = 77926
+
+[[package]]
+name = "httpx"
+version = "0.27.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "certifi" },
+    { name = "httpcore" },
+    { name = "idna" },
+    { name = "sniffio" },
+]
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/httpx-0.27.0.tar.gz"
+hash = "sha256:a0cb88a46f32dc874e04ee956e4c2764aba2aa228f650b06788ba6bda2962ab5"
+size = 142841
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/httpx-0.27.0-py3-none-any.whl"
+hash = "sha256:71d6ef2cda3a7bf7a3ee0007fd2e36d1b7f0cd06f98a774855eddf0dd6ed71cf"
+size = 75590
+
+[[package]]
+name = "idna"
+version = "3.7"
+source = { registry = "https://pypi.org/simple" }
+dependencies = []
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/idna-3.7.tar.gz"
+hash = "sha256:028ff3aadf0609c1fd278d272d43462d1c701e3e74f31c7538e29ce1b2d3e81e"
+size = 189575
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/idna-3.7-py3-none-any.whl"
+hash = "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"
+size = 66918
+
+[[package]]
+name = "install-command-flags"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "click" },
+    { name = "httpx" },
+    { name = "requests" },
+    { name = "rich" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "click", specifier = ">=8.1.0" },
+    { name = "httpx", specifier = ">=0.27.0" },
+    { name = "requests", specifier = ">=2.31.0" },
+    { name = "rich", specifier = ">=13.7.0" },
+]
+
+[[package]]
+name = "markdown-it-py"
+version = "3.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "mdurl" },
+]
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/markdown-it-py-3.0.0.tar.gz"
+hash = "sha256:e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8dea"
+size = 74596
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/markdown_it_py-3.0.0-py3-none-any.whl"
+hash = "sha256:355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1ceb5a8"
+size = 87528
+
+[[package]]
+name = "mdurl"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = []
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/mdurl-0.1.2.tar.gz"
+hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
+size = 8729
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/mdurl-0.1.2-py3-none-any.whl"
+hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
+size = 9979
+
+[[package]]
+name = "pygments"
+version = "2.17.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = []
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/pygments-2.17.2.tar.gz"
+hash = "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"
+size = 4827755
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/pygments-2.17.2-py3-none-any.whl"
+hash = "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c"
+size = 1179773
+
+[[package]]
+name = "requests"
+version = "2.31.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "certifi" },
+    { name = "charset-normalizer" },
+    { name = "idna" },
+    { name = "urllib3" },
+]
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/requests-2.31.0.tar.gz"
+hash = "sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
+size = 110794
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/requests-2.31.0-py3-none-any.whl"
+hash = "sha256:58cd2187423839f0c20f0719c4dff547cf2f10a7dc71a1614f9c5cd5bfcbee42"
+size = 62574
+
+[[package]]
+name = "rich"
+version = "13.7.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "markdown-it-py" },
+    { name = "pygments" },
+]
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/rich-13.7.1.tar.gz"
+hash = "sha256:9be308cb1fe2f1f57d67ce99e95af38a1e2bc71ad9813b0e247cf7ffbab21cbf"
+size = 221248
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/rich-13.7.1-py3-none-any.whl"
+hash = "sha256:4edbae314f59eb482f54e9e30bf00d33350aaa94f4bfcd4e9e3110e64d0d7222"
+size = 240681
+
+[[package]]
+name = "sniffio"
+version = "1.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = []
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/sniffio-1.3.1.tar.gz"
+hash = "sha256:f4324edc670a0f49750a81b895f35c3a579cc9aa301f6e6f02de62d9cf4de8b4"
+size = 20372
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/sniffio-1.3.1-py3-none-any.whl"
+hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2"
+size = 10235
+
+[[package]]
+name = "urllib3"
+version = "2.2.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = []
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/urllib3-2.2.1.tar.gz"
+hash = "sha256:d0570876c61ab9e520d776c38acbbb5b02a542ed1merr8c7e3b6f3f6f3f6f3f6"
+size = 291754
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/urllib3-2.2.1-py3-none-any.whl"
+hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d"
+size = 121067
