@@ -1,31 +1,30 @@
 {
-  "generated_at": "2026-09-15T12:32:45Z",
+  "generated_at": "2026-09-22T00:00:00Z",
   "packages": {
     "anyio": {
       "dependencies": [
         "idna",
-        "sniffio"
+        "typing-extensions"
       ],
       "group": "main",
       "hashes": [
-        "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6",
-        "sha256:048e05d0f6caeed70d731f3db756d35dcc1f35747c8c403364a8332c630441b8"
+        "sha256:9f28306018cbd6d329e64a36d58256edff76dd996fe423bc957326e578b82a94",
+        "sha256:6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101"
       ],
       "marker": null,
       "optional": false,
       "source": "registry",
       "source_detail": {
-        "dist": "anyio",
-        "python_versions": ">=3.8"
+        "dist": "anyio"
       },
-      "version": "4.3.0"
+      "version": "4.15.1"
     },
     "certifi": {
       "dependencies": [],
       "group": "main",
       "hashes": [
-        "sha256:0569859f96c099f90a1ed954340c5f9df8f55e8b75cf9a06b1d2807ab8011f04",
-        "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"
+        "sha256:741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+        "sha256:62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
       ],
       "marker": null,
       "optional": false,
@@ -33,14 +32,14 @@
       "source_detail": {
         "dist": "certifi"
       },
-      "version": "2024.2.2"
+      "version": "2026.7.22"
     },
     "charset-normalizer": {
       "dependencies": [],
       "group": "main",
       "hashes": [
-        "sha256:f30c3cb33b24454a82faecaf01b19c18562b1510d9abe128452de4268dda65e9",
-        "sha256:185e2a300a0eccfea66b4df7c0b5e4eab4cb16ee1d2ed1df4f87f97deac56ff4"
+        "sha256:6117b84ea48435e5356dc737f5121485c30920ba43375fa7b434fd753df0eac3",
+        "sha256:6df0ec430f9a831772c23ca5a224cba36517a58a84bb32c32bb59a9fa67c47f6"
       ],
       "marker": null,
       "optional": false,
@@ -48,16 +47,14 @@
       "source_detail": {
         "dist": "charset-normalizer"
       },
-      "version": "3.3.2"
+      "version": "3.5.1"
     },
     "click": {
-      "dependencies": [
-        "colorama"
-      ],
+      "dependencies": [],
       "group": "main",
       "hashes": [
-        "sha256:ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de",
-        "sha256:ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28"
+        "sha256:ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34",
+        "sha256:255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360"
       ],
       "marker": null,
       "optional": false,
@@ -65,29 +62,14 @@
       "source_detail": {
         "dist": "click"
       },
-      "version": "8.1.7"
-    },
-    "colorama": {
-      "dependencies": [],
-      "group": "main",
-      "hashes": [
-        "sha256:08695f5cb7ed6e0531a20572697297d53f7f9a11a4c35d56f04a77fb3f58a4e",
-        "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
-      ],
-      "marker": "sys_platform == 'win32'",
-      "optional": false,
-      "source": "registry",
-      "source_detail": {
-        "dist": "colorama"
-      },
-      "version": "0.4.6"
+      "version": "8.5.0"
     },
     "h11": {
       "dependencies": [],
       "group": "main",
       "hashes": [
-        "sha256:8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d",
-        "sha256:e3fe4ac4b851c468cc8363d500db52c2ead036020723024a109d37346efaa761"
+        "sha256:4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1",
+        "sha256:63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86"
       ],
       "marker": null,
       "optional": false,
@@ -95,7 +77,7 @@
       "source_detail": {
         "dist": "h11"
       },
-      "version": "0.14.0"
+      "version": "0.16.0"
     },
     "httpcore": {
       "dependencies": [
@@ -104,8 +86,8 @@
       ],
       "group": "main",
       "hashes": [
-        "sha256:34a38e2f9c27f37d7a5ede05edd3f4d669b8628c2e7bba2b2abd411ac9e4a3bf",
-        "sha256:421f18bac248b25d310f3cacd198d55b8e6125c107797b609ff9b7a6ba7991b5"
+        "sha256:6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8",
+        "sha256:2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55"
       ],
       "marker": null,
       "optional": false,
@@ -113,20 +95,19 @@
       "source_detail": {
         "dist": "httpcore"
       },
-      "version": "1.0.5"
+      "version": "1.0.9"
     },
     "httpx": {
       "dependencies": [
         "anyio",
         "certifi",
         "httpcore",
-        "idna",
-        "sniffio"
+        "idna"
       ],
       "group": "main",
       "hashes": [
-        "sha256:a0cb88a46f32dc874e04ee956e4c2764aba2aa228f650b06788ba6bda2962ab5",
-        "sha256:71d6ef2cda3a7bf7a3ee0007fd2e36d1b7f0cd06f98a774855eddf0dd6ed71cf"
+        "sha256:75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc",
+        "sha256:d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"
       ],
       "marker": null,
       "optional": false,
@@ -134,14 +115,14 @@
       "source_detail": {
         "dist": "httpx"
       },
-      "version": "0.27.0"
+      "version": "0.28.1"
     },
     "idna": {
       "dependencies": [],
       "group": "main",
       "hashes": [
-        "sha256:028ff3aadf0609c1fd278d272d43462d1c701e3e74f31c7538e29ce1b2d3e81e",
-        "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"
+        "sha256:a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44",
+        "sha256:ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
       ],
       "marker": null,
       "optional": false,
@@ -149,7 +130,7 @@
       "source_detail": {
         "dist": "idna"
       },
-      "version": "3.7"
+      "version": "3.20"
     },
     "markdown-it-py": {
       "dependencies": [
@@ -157,8 +138,8 @@
       ],
       "group": "main",
       "hashes": [
-        "sha256:e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8dea",
-        "sha256:355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1ceb5a8"
+        "sha256:04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49",
+        "sha256:9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a"
       ],
       "marker": null,
       "optional": false,
@@ -166,7 +147,7 @@
       "source_detail": {
         "dist": "markdown-it-py"
       },
-      "version": "3.0.0"
+      "version": "4.2.0"
     },
     "mdurl": {
       "dependencies": [],
@@ -187,8 +168,8 @@
       "dependencies": [],
       "group": "main",
       "hashes": [
-        "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367",
-        "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c"
+        "sha256:610ca751c9bc2492b38eb9a38a7fbc93edbbb2d7182edaf34e66ae493dee5c8c",
+        "sha256:2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9"
       ],
       "marker": null,
       "optional": false,
@@ -196,7 +177,7 @@
       "source_detail": {
         "dist": "pygments"
       },
-      "version": "2.17.2"
+      "version": "2.21.0"
     },
     "requests": {
       "dependencies": [
@@ -207,8 +188,8 @@
       ],
       "group": "main",
       "hashes": [
-        "sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1",
-        "sha256:58cd2187423839f0c20f0719c4dff547cf2f10a7dc71a1614f9c5cd5bfcbee42"
+        "sha256:f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed",
+        "sha256:2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
       ],
       "marker": null,
       "optional": false,
@@ -216,7 +197,7 @@
       "source_detail": {
         "dist": "requests"
       },
-      "version": "2.31.0"
+      "version": "2.34.2"
     },
     "rich": {
       "dependencies": [
@@ -225,8 +206,8 @@
       ],
       "group": "main",
       "hashes": [
-        "sha256:9be308cb1fe2f1f57d67ce99e95af38a1e2bc71ad9813b0e247cf7ffbab21cbf",
-        "sha256:4edbae314f59eb482f54e9e30bf00d33350aaa94f4bfcd4e9e3110e64d0d7222"
+        "sha256:edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36",
+        "sha256:33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb"
       ],
       "marker": null,
       "optional": false,
@@ -234,28 +215,29 @@
       "source_detail": {
         "dist": "rich"
       },
-      "version": "13.7.1"
+      "version": "15.0.0"
     },
-    "sniffio": {
+    "typing-extensions": {
       "dependencies": [],
       "group": "main",
       "hashes": [
-        "sha256:f4324edc670a0f49750a81b895f35c3a579cc9aa301f6e6f02de62d9cf4de8b4",
-        "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2"
+        "sha256:dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5",
+        "sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
       ],
       "marker": null,
       "optional": false,
       "source": "registry",
       "source_detail": {
-        "dist": "sniffio"
+        "dist": "typing-extensions"
       },
-      "version": "1.3.1"
+      "version": "4.16.0"
     },
     "urllib3": {
       "dependencies": [],
       "group": "main",
       "hashes": [
-        "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d"
+        "sha256:63bf2ead4c879426ebf22ef2a781eeb4aa3b4ae798a0435506f8687fd5bb9b63",
+        "sha256:0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
       ],
       "marker": null,
       "optional": false,
@@ -263,7 +245,7 @@
       "source_detail": {
         "dist": "urllib3"
       },
-      "version": "2.2.1"
+      "version": "2.8.0"
     }
   },
   "pm": "uv",
@@ -286,8 +268,6 @@
     "version": "0.1.0"
   },
   "schema_version": "1.2",
-  "source_file": "output/uv/install-command-flags-20260915-123245/uv.lock",
-  "warnings": [
-    "colorama is platform-conditional (sys_platform == 'win32') — included in the tree but will only be installed on Windows hosts. Downstream comparators running on Linux/macOS should expect this package to appear in the tree with its marker preserved."
-  ]
+  "source_file": "uv.lock",
+  "warnings": []
 }

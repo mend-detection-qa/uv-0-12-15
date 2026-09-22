@@ -47,14 +47,13 @@
           "anyio",
           "certifi",
           "charset-normalizer",
-          "colorama",
           "h11",
           "httpcore",
           "idna",
           "markdown-it-py",
           "mdurl",
           "pygments",
-          "sniffio",
+          "typing-extensions",
           "urllib3"
         ]
       },
